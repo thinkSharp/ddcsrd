@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hare Krishna Hare Krishna Krishna Krishna Hare Hare. Hare Ram Hare Ram Ram Ram Hare Hare</h1>
-    </div>
+    <>
+    <CssBaseline />
+      <Home />
+    </>
   );
 }
 
